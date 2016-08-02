@@ -1,5 +1,5 @@
 output "id" {
-    value = "${azurerm_storage_container.mod.properties}"
+    value = "${azurerm_storage_container.mod.id}"
 }
 
 output "name" {
